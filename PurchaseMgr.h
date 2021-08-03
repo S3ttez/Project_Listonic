@@ -1,0 +1,8 @@
+//
+// Created by Alex on 03/08/2021.
+//
+
+#ifndef LISTONIC_PURCHASEMGR_H
+#define LISTONIC_PURCHASEMGR_H
+
+#endif //LISTONIC_PURCHASEMGR_H

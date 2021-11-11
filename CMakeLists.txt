@@ -3,4 +3,18 @@ project(Listonic)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Listonic main.cpp header.h Program.h Observer.h Subject.h ListMgr.h List.h Items.h Client.h PurchaseMgr.h ItemMgr.h)
+set(PROJECT_HEADERS
+        header.h
+        Observer.h
+        Subject.h
+        ListMgr.h
+        ListMgr.cpp
+        Items.h
+        Items.cpp
+        ItemMgr.h
+        ItemMgr.cpp
+        )
+set(PROJECT_SOURCES
+        main.cpp
+        ListMgr.cpp ItemMgr.cpp Items.cpp)
+add_executable(Listonic ${PROJECT_SOURCES} ${PROJECT_HEADERS})

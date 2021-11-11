@@ -2,15 +2,16 @@
 // Created by Alex on 03/08/2021.
 //
 
-#ifndef LISTONIC_OBSERVER_H
-#define LISTONIC_OBSERVER_H
+#ifndef MAIN_CPP_OBSERVER_H
+#define MAIN_CPP_OBSERVER_H
 
-class Observer{
+
+class Observer {
 public:
-    virtual ~Observer()=0;
-    virtual void Update()=0;
+    virtual void Update() = 0;
+protected:
+    virtual ~Observer() = default;
 };
 
 
-
-#endif //LISTONIC_OBSERVER_H
+#endif //MAIN_CPP_OBSERVER_H

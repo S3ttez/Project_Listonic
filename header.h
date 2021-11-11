@@ -7,8 +7,10 @@
 
 #include <iostream>
 #include <list>
+#include <map>
 #include <vector>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 #endif //LISTONIC_HEADER_H

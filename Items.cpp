@@ -3,6 +3,7 @@
 //
 #include "Items.h"
 
+
 void Items::setPrice(float p) {
     if (p >= 0) {
         this->price = p;

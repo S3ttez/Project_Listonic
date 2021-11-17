@@ -1,7 +1,6 @@
 //
 // Created by Alex on 03/08/2021.
 //
-
 #ifndef LISTONIC_ITEMS_H
 #define LISTONIC_ITEMS_H
 #include "header.h"
@@ -57,5 +56,4 @@ private:
     int quantity;
     bool bought;
 };
-
 #endif //LISTONIC_ITEMS_H

@@ -13,5 +13,4 @@ protected:
     virtual ~Observer() = default;
 };
 
-
 #endif //MAIN_CPP_OBSERVER_H

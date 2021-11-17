@@ -17,6 +17,16 @@ public:
     Items p;
 };
 
+TEST(Items, ItemsConstructorTesting){
+    Items i;
+    ASSERT_EQ("",i.getName());
+    ASSERT_EQ("",i.getCategory());
+    ASSERT_EQ(0,i.getPrice());
+    ASSERT_EQ(1,i.getQuantity());
+    ASSERT_FALSE(i.isBought());
+}
+
+
 TEST_F(ItemsTesting, QuantityTestingMethod){
     ASSERT_THROW({
         try{

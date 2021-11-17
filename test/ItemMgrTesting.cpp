@@ -15,5 +15,4 @@ TEST(ItemMgr, ObserverTesting){
     ASSERT_EQ(2, listMgr.getAccounts());
     listMgr.RemoveObserver(obs);
     ASSERT_EQ(1, listMgr.getAccounts());
-
 }

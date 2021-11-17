@@ -20,5 +20,4 @@ public:
 private:
     ListMgr* listMgr{};
 };
-
 #endif //LISTONIC_ITEMMGR_H

@@ -32,7 +32,7 @@ TEST_F(ItemsTesting, QuantityTestingMethod){
 TEST_F(ItemsTesting, PriceTestingMethod){
     ASSERT_THROW({
         try{
-            p.setPrice(-5);
+            p.setPrice(-3);
         }
         catch(const invalid_argument& e){
             ASSERT_STREQ("Error input. Change!", e.what());

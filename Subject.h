@@ -15,5 +15,4 @@ public:
 protected:
     virtual ~Subject()=default;
 };
-
 #endif //LISTONIC_SUBJECT_H

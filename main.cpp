@@ -35,4 +35,5 @@ int main() {
     list1.removeItem(item4); //soldout
 
     return 0;
+
 }

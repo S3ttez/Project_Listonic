@@ -1,7 +1,6 @@
 //
 // Created by Alex on 03/08/2021.
 //
-
 #include "ListMgr.h"
 
 void ListMgr::AddObserver(Observer *obs) {

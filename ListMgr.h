@@ -78,5 +78,4 @@ private:
 };
 
 
-
 #endif //LISTONIC_LIST_H

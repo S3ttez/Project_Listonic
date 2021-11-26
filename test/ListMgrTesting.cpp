@@ -50,6 +50,7 @@ TEST_F(ListMgrTesting, CategoryTesting){
     ASSERT_EQ("[Meat List]", listMgr.getListName());
 }
 
+
 TEST_F(ListMgrTesting, PriceTesting){
     Items item1("morcov", "", 3, 2, true);
     Items item2("garlic", "", 6, 1, true);
